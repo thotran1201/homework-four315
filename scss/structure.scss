@@ -1,0 +1,67 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, 
+body {
+ height: 100%
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: Garamond;
+    src: url(../fonts/EB_Garamond/static/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: MatrixGudea;
+    src: url(../fonts/Gudea/Gudea-Regular.ttf);
+}
+
+.green-box {
+    background-color: #1F8600;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.green-box h2 {
+    font-family: Garamond;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 44px;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 59, 0, .7);
+    z-index: 99;
+}
+
+.modal h2 {
+    color: white;
+    font-family: Garamond;
+}
